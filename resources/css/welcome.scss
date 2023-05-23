@@ -1,0 +1,81 @@
+$wlecomeWidth: "50%";
+
+// .welcome-img {
+//   /* background-size: cover; */
+//   position: absolute;
+
+//   width: 99%;
+// }
+#welcome-title {
+  font-size: 30px;
+  text-shadow: 0 0 10px #000;
+  color: white;
+}
+
+.welcome-div {
+  // background-color: #0000009c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // position: absolute;
+  z-index: 10000;
+  color: white;
+  width: 99%;
+  height: inherit;
+}
+
+/* phone screen width */
+@media (min-width: 200px) {
+  .welcome-left {
+    /* width: 100%; */
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  .welcome-right {
+    display: inherit;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  /* .contact-image {
+      display: inherit;
+      height: 50%;
+    } */
+
+  #welcome-card {
+    flex-direction: column;
+    height: 100%;
+    background: rgb(139, 83, 255, 0.7);
+  }
+
+  #welcome-form label {
+    text-align: center;
+  }
+  #welcome {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../images/pexels-elizabeth-lizzie.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: fit-content;
+
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 576px) {
+}
+@media (max-height: 960px) {
+}
+@media (max-height: 600px) {
+}
+//iphone xr 12
+@media (min-height: 800px) {
+}

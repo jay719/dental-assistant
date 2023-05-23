@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <!-- need to declare title and  link stylesheet in head -->
+    <title>ColoradoDentalAssitant</title>
+    <link href="./resources/css/styles.scss" type="text/css" rel="stylesheet" />
+    <link href="./resources/css/contact.css" type="text/css" rel="stylesheet" />
+    <link href="./resources/css/welcome.scss" type="text/css" rel="stylesheet" />
+    <link href="./resources/css/contact-form.css" type="text/css" rel="stylesheet" />
+    <link
+      href="./resources/css/summary.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link href="./resources/css/header.css" type="text/css" rel="stylesheet" />
+
+    <link href="./resources/css/footer.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./resources/javascript/index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="home">
+      
+      <header>
+         <div class="socials-bar">
+         Start your new career in under 8 months. Enroll Today!
+          </div> 
+        <div class="second-header-bar">
+            <div class="logo-container">
+              <img src="./resources/images/toothbrush.png" class="logo-img"></img>
+            </div>
+            <div class="header-buttons">
+              <div class="header-btn-container">
+                <a  href="#welcome"><h4 class="nav-btn" >Home</h4></a>
+              </div>
+              <div class="header-btn-container">
+                <a href="#about"><h4 class="nav-btn" >About</h4></a>
+              </div>
+              <div class="header-btn-container">
+                <a href="#services"><h4 class="nav-btn" >Services</h4></a>
+              </div>
+              <div class="header-btn-container">
+                <a  href="#contact"><h4 class="nav-btn" >Contact</h4></a>
+              </div>
+            </div>
+          </div>
+      </header>
+      <!-- make welcome a slide show -->
+      <div class="screen" id="welcome">
+        <div id="welcome-card">
+          <div class="welcome-right">
+            <div class="welcome-div">
+              <h2 id="welcome-title"> Affordable Tuition & Financial security <br>Enroll now to start your new career!
+              </h2>
+            </div> 
+          </div>
+          <!-- Make this circular and side by side -->
+          <div class="welcome-left">
+            <!-- <div class="info-section">
+               <h1 class="contact-title">GIVE US A CALL FOR A FREE ESTIMATE!</h1>
+            <p>Interested in learning more about me, my work or how we can collaborate on an upcoming project? Feel free to reach out anytime, we would be more than happy to chat</p>
+            <p> 2928 Main St
+              Colorado Springs, CO  80907</p>
+            <p>Office Hours: Mon - Fri 7am - 6pm</p>
+            <p>719-352-4934</p>
+          </div> -->
+          
+          <div id="welcome-form">
+            <form id="form" name="welcomeForm" onsubmit="event.preventDefault();">
+              <label for="name">First Name</label>
+              <!-- placeholder="First Name" -->
+              <input class="input-field" type="text" id="name" name="name" required /><br /><br />
+              <label for="name">Last Name</label>
+              <input class="input-field" type="text" id="lname" name="name" required /><br /><br />
+              <label for="phone"  required >Phone Number</label>
+              <input class="input-field" type="tel" id="phone" name="phone" /><br /><br />
+              <label for="message">Message (optional)</label>
+              <input class="input-field" type="text" id="message" name="message" /><br /><br />
+              <label for="email">Email</label>
+              <input
+              class="input-field"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+              <p>By submitting this form, I agree to the <a>Privacy Policy</a>, which I have read on this website.</p>
+                <div id="submit-container"><div class="btn" id="submit">Submit</div></div>
+            </form>
+          </div></div>
+         
+        </div>
+      </div>
+      
+      <div class="screen" id="summary">
+        <div id="summary-container">
+          <h1 class="section-title" id="summary-title">How we accelerate you into your next role<img src="./resources/images/sm-tooth.png" class="sm-tooth-img"></h1>
+          <div id="cardsContainer"></div>
+        </div>
+      </div>
+      <div class="screen" id="schedule">
+        
+      </div> 
+    </div>
+    <div class="screen" id="about">
+      <div id="about-description"> 
+        <!-- <h2 style="font-size: 72px;">1ST PRIORITY HOME IMPROVEMENTS LLC
+        </h2> -->
+        <h1 class="section-title">
+          Our Mission and Services
+        </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+    </div>
+     
+    </div>
+    <div class="screen" id="contact">
+      <img src="./resources/images/toothbrush.png" class="logo-img"></img> <h3>+999-999-9999</h3> <h3>1234 Green Avenue Park, Colorado</h3>
+    </div> 
+    <footer>
+      <div id="copywrite-div"> <p>
+        ©2023 Copryright by All Hands Dental School</p>
+        </p>
+        </div>
+       
+    </footer>
+  </body>
+</html>

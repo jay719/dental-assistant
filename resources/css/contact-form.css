@@ -1,0 +1,61 @@
+@media (min-width: 200px) {
+  .input-field {
+    width: 100%;
+
+    border: 2px solid grey;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    margin-bottom: 15px;
+  }
+  .input-field:focus {
+    outline: none !important;
+    border: 1px solid black;
+    /* box-shadow: 0 0 10px #719ece; */
+  }
+  #form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #submit {
+    background-color: rgb(139, 83, 255);
+    font-size: 30px;
+  }
+  #submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-image {
+  }
+  .contact-title {
+    text-align: center;
+    line-height: 1.35em;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  /* .welcome-right {
+      display: none;
+    } */
+  .contact-image {
+    visibility: hidden;
+  }
+  .welcome-left p {
+    font-size: 12px;
+    text-align: center;
+    /* text-shadow: 1px 0px 0px #000; */
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* #contact {
+      flex-direction: column;
+      padding-bottom: 0;
+    } */
+}

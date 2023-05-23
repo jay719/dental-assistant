@@ -1,0 +1,38 @@
+footer {
+  background-color: plum;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  height: 3%;
+  /* position: absolute; */
+  /* bottom: 0; */
+
+  /* margin-top: 50px; */
+}
+.email {
+  cursor: pointer;
+}
+/* .email-tooltip {
+  visibility: hidden;
+  padding-right: 5px;
+}
+#email-div:hover .email-tooltip {
+  color: white;
+  visibility: visible;
+} */
+/* #copywrite-div {
+  height: 100%;
+} */
+footer p {
+  font-size: 15px;
+  margin: 0;
+}
+
+#email-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
