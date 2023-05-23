@@ -47,7 +47,7 @@ const createNewDiv = (num, title, description) => {
   cardDiv.append(divTitle);
   cardDiv.append(divDesc);
 
-  console.log(cardDiv);
+  console.log(cardSection);
   cardSection.append(cardDiv);
   console.log(cardSection.children);
 };
